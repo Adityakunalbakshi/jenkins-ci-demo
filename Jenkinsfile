@@ -18,7 +18,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Running unit test suite...'
+               echo 'Running unit test suite v2 - automated push test...'
                 sh 'echo "All tests passed successfully!"'
             }
         }
